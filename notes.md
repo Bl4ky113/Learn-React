@@ -151,3 +151,22 @@ have a similar or the same name. You can declare multiple elements inside a file
 general o global components files.
 This import functionality works with any kind of weird requirement of components, like a chain of components requiring 
 a long line of other components and such.
+
+## JSX Markup
+
+So. JSX is just an extension for JS that let us make HTML-like markup. 
+Since now the web was mainly dependant on the HTML and CSS or JS where extras that made the 
+site better and more interactive.
+
+But with JSX, JS is the main caracter putting the render and it's logic for JS. So we can write JS and HTML at the same time.
+CSS is out of the picture by now.
+
+But JSX markup isn't 1 to 1 with html markup, it's way more strict. Some of the 
+strict parts are:
+- Always have to use a root or base tag for the markup elements
+    - This could be a div or any tag, but it could be a fragment which is just a 'empty' tag \<\> \</\>
+- CLOSE ALL THE TAGS, even the inline ones
+- softCammelCase ALMOST all of the tags, and there's some changes like class is now 'className'
+    the aria or data tags might not have to be cammel case'd
+
+You can use HTML, and SVG, to JSX converters online or somewhere.
